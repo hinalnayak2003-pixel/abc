@@ -2,10 +2,16 @@ package com.example;
 
 public class App {
     public static String greet(String name) {
-        return "Hello, " + name + "!";
+        return "Hello, " + name + "! Welcome to Jenkins CI/CD!";
+    }
+
+    public static int add(int a, int b) {
+        return a + b;
     }
 
     public static void main(String[] args) {
         System.out.println(greet("World"));
+        System.out.println("2 + 3 = " + add(2, 3));
+        System.out.println("Jenkins is AWESOME!");
     }
 }
